@@ -6,11 +6,11 @@ const bearerToken=require('express-bearer-token');
 const events=require('./events')
 
 const connection=mysql.createConnection({
-    host:'b31ska00hm5nbt27tr40-mysql.services.clever-cloud.com',
+    host:'sql12.freesqldatabase.com',
     port:'3306',
-    user:'uopectih4fo1kadl',
-    password:'g7yNXozSPP7TnZgdkXxF',
-    database:'b31ska00hm5nbt27tr40'
+    user:'sql12381356',
+    password:'NJpwhMqSzh',
+    database:'sql12381356'
 })
 connection.connect();
 const port= process.env.PORT || 3100;
