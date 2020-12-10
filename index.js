@@ -13,7 +13,7 @@ const connection=mysql.createConnection({
     database:'b31ska00hm5nbt27tr40'
 })
 connection.connect();
-const port= process.env.PORT || 3000;
+const port= process.env.port || 3000;
 const app=express()
             .use(cors())
             .use(bodyParser.json())
