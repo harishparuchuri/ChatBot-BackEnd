@@ -3,6 +3,12 @@ const express=require('express')
 function createRouter(db){
     const router=express.Router()
 
+
+    router.get('/', (req, res) => {
+        res.json({
+            message: 'PizzaBot Backend Running Fine'
+        });
+    });
     //Get Message Data From Data Base
     router.get('/data',function(req,res,next){
         db.query(
