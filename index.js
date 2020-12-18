@@ -6,11 +6,11 @@ const bearerToken=require('express-bearer-token');
 const events=require('./events')
 
 const connection=mysql.createConnection({
-    host:'sql12.freesqldatabase.com',
+    host:'sql10.freesqldatabase.com',
     port:'3306',
-    user:'sql12381356',
-    password:'NJpwhMqSzh',
-    database:'sql12381356'
+    user:'sql10382785',
+    password:'dMwmtZ7FSZ',
+    database:'sql10382785'
 })
 connection.connect();
 const port= process.env.PORT || 7000;
